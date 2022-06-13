@@ -2,7 +2,6 @@ import React from "react";
 import "./HandleResults.css";
 
 export default function HandleResults(props) {
-  console.log(props.data.tracks.hits);
   if (props.data !== null) {
     return (
       <div className="HandleResults">

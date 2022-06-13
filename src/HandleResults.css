@@ -1,0 +1,45 @@
+.HandleResults .Title {
+  font-size: 28px;
+  background: #ffa34d;
+  padding: 10px;
+  color: black;
+  font-family: "Pacifico", cursive;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
+}
+
+.HandleResults .Subtitle {
+  font-size: 20px;
+  padding-top: 10px;
+  font-family: "Righteous", cursive;
+}
+
+.HandleResults .Video {
+  background: #ff7c00;
+  width: 150px;
+  margin: 15px auto;
+  border: 2px solid #ca670b;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(244, 240, 240, 0.5);
+  padding: 5px;
+}
+
+.HandleResults .Video:hover {
+  background: rgb(100, 29, 29);
+  border: 2px solid rgb(61, 17, 17);
+}
+
+.HandleResults .Url {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px 45px;
+  font-family: "Righteous", cursive;
+}
+
+.HandleResults .Url:hover {
+  color: rgb(217, 173, 173);
+}
+
+.HandleResults .Image {
+  margin-bottom: 50px;
+}

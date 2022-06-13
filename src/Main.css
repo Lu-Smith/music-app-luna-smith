@@ -1,19 +1,25 @@
 .Main {
-  margin-bottom: 100px;
+  margin-bottom: 350px;
 }
 
 .Main form {
   padding: 40px;
+  background: #ff7c00;
 }
 .Main .input {
   max-width: 300px;
   display: inline-flex;
   line-height: 40px;
   font-size: 20px;
+  font-family: "Righteous", cursive;
 }
 
 .Main button {
+  background: #3f3d3c;
+  color: #fff;
   line-height: 40px;
   font-size: 20px;
   margin: 0 0 7px 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  font-family: "Righteous", cursive;
 }

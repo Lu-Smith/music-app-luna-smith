@@ -4,7 +4,7 @@ import axios from "axios";
 import HandleResults from "./HandleResults";
 
 export default function Main() {
-  let [musicSearch, setMusicSearch] = useState("bad boys");
+  let [musicSearch, setMusicSearch] = useState("Life Story");
   let [resultSearch, setResultSearch] = useState(null);
   function search(response) {
     setMusicSearch(response.target.value);
@@ -41,15 +41,11 @@ export default function Main() {
         <form className="flex mx-auto">
           <input
             type="search"
-            placeholder="type here"
+            placeholder="type a title or an artist.."
             className="form-control input"
             onChange={search}
           />
-          <button
-            type="submit"
-            className="btn btn-primary"
-            onClick={handleSearch}
-          >
+          <button type="submit" className="btn" onClick={handleSearch}>
             Search
           </button>
         </form>
@@ -62,15 +58,11 @@ export default function Main() {
         <form className="flex mx-auto">
           <input
             type="search"
-            placeholder="type title or artist.."
+            placeholder="type a title or an artist.."
             className="form-control input"
             onChange={search}
           />
-          <button
-            type="submit"
-            className="btn btn-primary"
-            onClick={handleSearch}
-          >
+          <button type="submit" className="btn" onClick={handleSearch}>
             Search
           </button>
         </form>
