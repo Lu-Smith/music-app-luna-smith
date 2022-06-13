@@ -29,31 +29,52 @@ export default function Main() {
     axios
       .request(options)
       .then(function (response) {
-        console.log(response.data);
         setResultSearch(response.data);
       })
       .catch(function (error) {
         console.error(error);
       });
   }
-  return (
-    <div className="Main">
-      <form className="flex mx-auto">
-        <input
-          type="search"
-          placeholder="type here"
-          className="form-control input"
-          onChange={search}
-        />
-        <button
-          type="submit"
-          className="btn btn-primary"
-          onClick={handleSearch}
-        >
-          Search
-        </button>
-      </form>
-      <HandleResults data={resultSearch} />
-    </div>
-  );
+  if (resultSearch) {
+    return (
+      <div className="Main">
+        <form className="flex mx-auto">
+          <input
+            type="search"
+            placeholder="type here"
+            className="form-control input"
+            onChange={search}
+          />
+          <button
+            type="submit"
+            className="btn btn-primary"
+            onClick={handleSearch}
+          >
+            Search
+          </button>
+        </form>
+        <HandleResults data={resultSearch} />
+      </div>
+    );
+  } else {
+    return (
+      <div className="Main">
+        <form className="flex mx-auto">
+          <input
+            type="search"
+            placeholder="type title or artist.."
+            className="form-control input"
+            onChange={search}
+          />
+          <button
+            type="submit"
+            className="btn btn-primary"
+            onClick={handleSearch}
+          >
+            Search
+          </button>
+        </form>
+      </div>
+    );
+  }
 }
