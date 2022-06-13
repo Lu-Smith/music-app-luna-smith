@@ -19,16 +19,16 @@ function App() {
             {" "}
             Luna Smith{" "}
           </a>
-          and is
+          and is open-sourced on
           <a
-            href="https://github.com/Lu-Smith/weather-app-by-luna-smith-react"
+            href="https://github.com/Lu-Smith/music-app-luna-smith"
             target="_blank"
             alt="my GitHub"
             rel="noopener noreferrer"
-            className="GitHub"
+            className="portfolio-link"
           >
             {" "}
-            open-sourced on GitHub{" "}
+            GitHub
           </a>
         </div>
       </footer>

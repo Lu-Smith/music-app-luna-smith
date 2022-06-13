@@ -1,7 +1,24 @@
 .App {
   text-align: center;
+  background: black;
+  color: white;
 }
 
 .App header {
-  margin: 30px;
+  padding: 30px;
+
+  font-size: 40px;
+}
+.App .created-by {
+  padding: 30px;
+}
+.App .portfolio-link {
+  text-decoration: none;
+  transition: 200ms all ease-in-out;
+  color: white;
+  font-weight: bold;
+}
+
+.App .portfolio-link:hover {
+  color: green;
 }
