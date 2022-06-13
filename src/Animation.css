@@ -3,3 +3,9 @@
   margin-bottom: 100px;
   padding-left: 60px;
 }
+
+@media (max-width: 700px) {
+  .musicnote {
+    width: 240px;
+  }
+}

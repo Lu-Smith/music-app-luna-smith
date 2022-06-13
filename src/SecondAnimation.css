@@ -1,4 +1,16 @@
 .smallmusicnote {
   width: 200px;
-  margin: 0 0 50px 240px;
+  margin: 0 0 50px 840px;
+}
+
+@media (max-width: 820px) {
+  .smallmusicnote {
+    margin: 0 0 50px 440px;
+  }
+}
+@media (max-width: 700px) {
+  .smallmusicnote {
+    width: 150px;
+    margin: 0 0 50px 200px;
+  }
 }

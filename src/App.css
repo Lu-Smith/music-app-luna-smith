@@ -20,6 +20,10 @@
 .App .created-by {
   padding: 30px;
 }
+
+.App footer {
+  font-size: 16px;
+}
 .App .portfolio-link {
   text-decoration: none;
   transition: 200ms all ease-in-out;
@@ -29,4 +33,14 @@
 
 .App .portfolio-link:hover {
   color: green;
+}
+
+@media (max-width: 700px) {
+  .App header {
+    padding: 20px;
+    font-size: 30px;
+  }
+  .App footer {
+    font-size: 14px;
+  }
 }
