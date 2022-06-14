@@ -2,6 +2,9 @@ import "./App.css";
 import Main from "./Main";
 import Animation from "./Animation";
 import SecondAnimation from "./SecondAnimation";
+import DoubleAnimation from "./DoubleAnimation";
+import ThirdAnimation from "./ThirdAnimation";
+import DoubleSecondAnimation from "./DoubleSecondAnimation";
 
 function App() {
   return (
@@ -10,6 +13,9 @@ function App() {
       <Main />
       <SecondAnimation />
       <Animation />
+      <DoubleAnimation />
+      <ThirdAnimation />
+      <DoubleSecondAnimation />
 
       <footer>
         <div className="created-by">

@@ -1,7 +1,7 @@
 .musicnote {
   width: 300px;
   margin-bottom: 100px;
-  padding-left: 60px;
+  padding-left: 100px;
 }
 
 @media (max-width: 700px) {

@@ -1,0 +1,15 @@
+.doublemusicnote {
+  width: 170px;
+  position: relative;
+  bottom: 520px;
+  right: 200px;
+}
+
+@media (max-width: 700px) {
+  .doublemusicnote {
+    width: 100px;
+    position: relative;
+    bottom: 360px;
+    right: 100px;
+  }
+}

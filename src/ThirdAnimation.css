@@ -1,0 +1,15 @@
+.thirdmusicnote {
+  width: 200px;
+  position: relative;
+  bottom: 120px;
+  right: 100px;
+}
+
+@media (max-width: 700px) {
+  .thirdmusicnote {
+    width: 120px;
+    position: relative;
+    bottom: 50px;
+    right: 40px;
+  }
+}
