@@ -2,6 +2,11 @@ import React, { useState } from "react";
 import "./Main.css";
 import axios from "axios";
 import HandleResults from "./HandleResults";
+import Animation from "./Animation";
+import SecondAnimation from "./SecondAnimation";
+import DoubleAnimation from "./DoubleAnimation";
+import ThirdAnimation from "./ThirdAnimation";
+import DoubleSecondAnimation from "./DoubleSecondAnimation";
 
 export default function Main() {
   let [musicSearch, setMusicSearch] = useState("Life Story");
@@ -66,6 +71,11 @@ export default function Main() {
             Search
           </button>
         </form>
+        <SecondAnimation />
+        <Animation />
+        <DoubleAnimation />
+        <ThirdAnimation />
+        <DoubleSecondAnimation />
       </div>
     );
   }
